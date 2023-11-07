@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Oleoteca Market</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .encabezado{
+            height: 600px;
+            background-image: url("fondo-olivo.png");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .encabezado h1{
+            padding: 8px 20px;
+            /* background-color: #ffffffd7; */
+            border-radius: 10px;
+            font-size: 2.6rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            letter-spacing: 2px;
+            color: #fff;
+        }
+        .sec-miembros{
+            padding: 30px 0;
+            padding-bottom: 60px;
+            background-color: #697251;
+        }
+        .titulo-miembros h2{
+            margin: 0px;
+            text-align: center;
+            margin-bottom: 50px;
+            color: #fff;
+        }
+        .miembros{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .socio{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 15px;
+        }
+        .imagen{
+            width: 125px;
+            height: 125px;
+            overflow: hidden;
+            border-radius: 300px;
+        }
+        .imagen img{
+            width: 100%;
+            height: auto;
+        }
+
+        .mapa{
+            width: 100%;
+        }
+    </style>
+    <header>
+        <div class="encabezado">
+            <h1>
+                Oleoteca Market
+            </h1>
+        </div>
+    </header>
+    <section class="sec-miembros">
+        <div class="titulo-miembros">
+            <h2>Socios de la Compañia</h2>
+        </div>
+        <div class="miembros">
+            <div class="socio">
+                <div class="imagen">
+                    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="">
+                </div>
+                <h3>Mariel Oleaga</h3>
+            </div>
+            <div class="socio">
+                <div class="imagen">
+                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+                </div>
+                <h3>Ricardo Sánchez</h3>
+            </div>
+            <div class="socio">
+                <div class="imagen">
+                    <img src="https://www.w3schools.com/w3css/img_avatar5.png" alt="">
+                </div>
+                <h3>Paula González</h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.6681928043654!2d-69.94372032563275!3d18.49868296984412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf899a9c40b48b%3A0xddbade0396b9fb5c!2sCalle%20Luis%20Amiama%20Ti%C3%B3%2093%2C%20Santo%20Domingo%2010510!5e0!3m2!1ses-419!2sdo!4v1699062892265!5m2!1ses-419!2sdo" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
